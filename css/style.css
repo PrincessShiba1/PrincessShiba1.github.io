@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  display: flex;
+  align-items: flex-start;
+}
+img{
+  min-width:100%;
+  height:300px;
+}
+.SocialMedia{
+
+}
+.OtherLinks{
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+a{
+  display: flex;
+  justify-content: center;
+  color: #0aa5f9;
+  list-style-type: none;
+  text-decoration: none;
+}
+.linkContainer{
+  border: blue solid 5px;
+  height: 
+}
+body {
+background-color: sandybrown;
+}
