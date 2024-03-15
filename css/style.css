@@ -1,67 +1,32 @@
-.profileImageB {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 128px;
-  border-style: dashed;
-  border-color: #f78de4;
-  border-width: 5px;
-}
-
 body {
   background-image: url('../Images/anas-alshanti-feXpdV001o4-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: 1440px 1000px;
 }
 
-.socialMediaLinks,
-.generalLinks,
-h1 {
-  color: #f78de4;
+h1, .socialMediaLinks, .generalLinks
+{ color: #f78de4;
   font-family: "Comic Sans MS";
 }
 
-.wrapperPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.socialMedia {
-  display: flex;
-  flex-direction: column;
-}
-
-.socialMediaWrapper {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-}
-
-.imageThumbnail,
-.generalThumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
+.generalLinks {
+  padding: 25px 20px;
+  font-size: 20px;
 }
 
 .generalThumbnail {
   padding: 10px;
 }
 
+.generalThumbnail, .imageThumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
 .imageThumbnail {
   padding: 15px;
-}
-
-.generalLinks {
-  padding: 25px 20px;
-}
-
-.socialMediaLinks {
-  display: flex;
-  justify-content: center;
-  padding: 0px 15px;
 }
 
 .linkContainer {
@@ -72,7 +37,36 @@ h1 {
   border-radius: 150px;
   background-color: #260f5953;
 }
+.profileImage {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+  border-style: dashed;
+  border-color: #f78de4;
+  border-width: 5px;
+}
 
-.socialMediaLinks, .generalLinks {
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMediaLinks {
+  display: flex;
+  justify-content: center;
+  padding: 0px 15px;
   font-size: 20px;
+}
+
+.socialMediaWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.wrapperPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
