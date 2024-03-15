@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(/Images/anas-alshanti-feXpdV001o4-unsplash.jpg);
+  background-image: url('../Images/anas-alshanti-feXpdV001o4-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: 1440px 1000px;
 }
